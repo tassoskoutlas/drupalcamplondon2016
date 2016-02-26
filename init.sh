@@ -34,5 +34,8 @@ echo "Fixing permissions"
 chmod -R 777 config
 chmod -R 777 sites/default/files
 
+echo "Importing config ..."
+${DRUSH} cim -y
+
 echo "Done."
 exit 0
