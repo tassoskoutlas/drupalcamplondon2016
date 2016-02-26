@@ -1,0 +1,13 @@
+uuid: 33184cb3-3a79-4b63-a300-0a5d549aa1dd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zjMgs2dN4P8KsiF0x3MzcYsLGm1A1kINUoWb1QjsShs
+name: 'Paragraphed article'
+type: paragraphed_content_demo
+description: 'Article with paragraphs.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

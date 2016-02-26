@@ -1,0 +1,8 @@
+uuid: 372321bb-3e0e-4afb-8000-e96db881962b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: D7rA7BBjV3Xw3ER9jCF5xH8zMFqCq67MW5XxaTMdGiI
+id: nested_paragraph
+label: 'Nested Paragraph'

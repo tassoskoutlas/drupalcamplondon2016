@@ -16,3 +16,4 @@ content:
     weight: 100
 hidden:
   body: true
+  langcode: true

@@ -1,0 +1,28 @@
+uuid: 7353b92e-842e-42fd-bb28-40616a15f288
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text.field_text_demo
+    - paragraphs.paragraphs_type.text
+  module:
+    - text
+_core:
+  default_config_hash: PU6YrnYRag6BEAdQN8pT6DS1F2c2kWe3F0ZwzRhl6K4
+id: paragraph.text.default
+targetEntityType: paragraph
+bundle: text
+mode: default
+content:
+  field_text_demo:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  translation:
+    weight: 10
+hidden:
+  created: true
+  uid: true

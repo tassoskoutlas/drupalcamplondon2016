@@ -1,0 +1,8 @@
+uuid: 9f90b741-7d12-4aac-8e00-afdd8cb24952
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wS10MSXnWZp572XotJDU2i2uHw3Z9xD6bScVlYn9Lfg
+id: images
+label: Images

@@ -1,0 +1,18 @@
+uuid: 75598a06-7c2a-4bfc-ad00-b02235e5b77e
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.image_text
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: U89Wtyalt5T1oNEmW06kuACfi6GqSAxgV1zNx4pni1w
+id: paragraph.image_text
+target_entity_type_id: paragraph
+target_bundle: image_text
+default_langcode: site_default
+language_alterable: true

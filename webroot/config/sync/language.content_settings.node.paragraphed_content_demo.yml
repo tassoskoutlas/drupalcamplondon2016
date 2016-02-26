@@ -1,0 +1,18 @@
+uuid: b2becf22-90e3-4470-8132-50113f098363
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.paragraphed_content_demo
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: FxgrNVb6eUDY09BBrV-ED48D5O9oQSeiBLBBTwpGJpg
+id: node.paragraphed_content_demo
+target_entity_type_id: node
+target_bundle: paragraphed_content_demo
+default_langcode: site_default
+language_alterable: true
