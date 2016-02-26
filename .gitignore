@@ -1,1 +1,3 @@
 logs/*
+webroot/sites/default/files
+webroot/sites/default/files/.*
