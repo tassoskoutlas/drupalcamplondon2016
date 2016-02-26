@@ -1,0 +1,11 @@
+uuid: 09643dca-3df7-4f84-9e00-0fa77f3bf6e6
+langcode: en
+status: true
+dependencies: {  }
+name: Content
+type: content
+description: 'Use this content type to add content to the site.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

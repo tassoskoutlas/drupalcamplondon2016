@@ -1,0 +1,24 @@
+uuid: eabc555f-00db-46d9-9100-f2cdfecc6117
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.content.body
+    - node.type.content
+  module:
+    - text
+    - user
+id: node.content.default
+targetEntityType: node
+bundle: content
+mode: default
+content:
+  body:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 100
+hidden: {  }
