@@ -3,23 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.content.body
     - node.type.content
-  module:
-    - text
 id: node.content.default
 targetEntityType: node
 bundle: content
 mode: default
 content:
-  body:
-    weight: 26
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea_with_summary
   created:
     type: datetime_timestamp
     weight: 10
