@@ -3,7 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.content.field_components
     - node.type.content
+  module:
+    - paragraphs
 id: node.content.default
 targetEntityType: node
 bundle: content
@@ -13,6 +16,16 @@ content:
     type: datetime_timestamp
     weight: 10
     settings: {  }
+    third_party_settings: {  }
+  field_components:
+    type: entity_reference_paragraphs
+    weight: 26
+    settings:
+      title: Component
+      title_plural: Components
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
     third_party_settings: {  }
   langcode:
     type: language_select
