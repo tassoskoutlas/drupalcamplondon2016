@@ -1,0 +1,6 @@
+uuid: ebe8f93f-8a60-4fa9-9332-501336989f1d
+langcode: en
+status: true
+dependencies: {  }
+id: views_reference
+label: 'Views reference'

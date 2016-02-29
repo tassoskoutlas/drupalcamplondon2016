@@ -1,0 +1,26 @@
+uuid: 459b4e25-6ee3-4686-9c11-17764e2ebf9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.views_reference.field_views_reference
+    - paragraphs.paragraphs_type.views_reference
+  module:
+    - views_field_formatter
+id: paragraph.views_reference.default
+targetEntityType: paragraph
+bundle: views_reference
+mode: default
+content:
+  field_views_reference:
+    weight: 0
+    label: above
+    settings:
+      view: 'content_recent::embed_1'
+      implode_character: ''
+      multiple: 0
+    third_party_settings: {  }
+    type: views_field_formatter
+hidden:
+  created: true
+  uid: true

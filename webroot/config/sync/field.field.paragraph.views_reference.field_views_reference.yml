@@ -1,0 +1,22 @@
+uuid: bcd9727e-835d-4219-af04-4dd6db0c4b59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_views_reference
+    - paragraphs.paragraphs_type.views_reference
+id: paragraph.views_reference.field_views_reference
+field_name: field_views_reference
+entity_type: paragraph
+bundle: views_reference
+label: 'Views reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+field_type: entity_reference

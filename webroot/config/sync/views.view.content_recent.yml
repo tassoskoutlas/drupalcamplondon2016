@@ -2,6 +2,8 @@ uuid: eacf3839-2ef4-4956-8e00-ebf7d0f41a50
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
   module:
     - node
     - user
@@ -62,7 +64,10 @@ display:
           wrapper_class: item-list
           class: ''
       row:
-        type: fields
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: teaser
       fields:
         title:
           id: title
@@ -316,4 +321,20 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
+      tags: {  }
+  embed_1:
+    display_plugin: embed
+    id: embed_1
+    display_title: Embed
+    position: 2
+    display_options:
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
       tags: {  }
