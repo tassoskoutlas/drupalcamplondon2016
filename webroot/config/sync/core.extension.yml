@@ -26,6 +26,7 @@ module:
   user: 0
   views: 0
   views_field_formatter: 0
+  views_ui: 0
   minimal: 1000
 theme:
   stark: 0

@@ -1,0 +1,27 @@
+uuid: 9c12e6d8-c14e-4702-9500-d18debf51503
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - node.type.content
+    - paragraphs.paragraphs_type.content_reference
+id: paragraph.content_reference.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: content_reference
+label: Content
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      content: content
+    sort:
+      field: title
+      direction: ASC
+field_type: entity_reference

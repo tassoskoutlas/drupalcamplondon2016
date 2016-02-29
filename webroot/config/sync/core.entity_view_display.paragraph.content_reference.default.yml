@@ -1,0 +1,23 @@
+uuid: 2b7af69a-ff93-4e58-8500-dce432a8f1d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_reference.field_content
+    - paragraphs.paragraphs_type.content_reference
+id: paragraph.content_reference.default
+targetEntityType: paragraph
+bundle: content_reference
+mode: default
+content:
+  field_content:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+hidden:
+  created: true
+  uid: true
